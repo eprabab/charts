@@ -22,20 +22,21 @@ version: 0.1.0
 # follow Semantic Versioning. They should reflect the version the application is using.
 appVersion: 1.16.0
 
+
 dependencies:
   - name: zoohelm
     version: 0.1.0
-    repository: "file:///Users/pradeep.babu/Desktop/IoT/all_charts/zookeeper"
+    repository: "file://../zookeeper"
   - name: homeautomation
     version: 1.0
-    repository: "file:///Users/pradeep.babu/Desktop/IoT/all_charts/stream-data-processor"
+    repository: "file://../stream-data-processor"
   - name: kafka-chart
     version: 0.1.0
-    repository: "file:///Users/pradeep.babu/Desktop/IoT/all_charts/kafka"
+    repository: "file://../kafka"
   - name: prometheus
     version: 1.0
-    repository: "file:///Users/pradeep.babu/Desktop/IoT/all_charts/prometheus"
+    repository: "file://../prometheus"
   - name: pm-metric-processor
     version: 0.1.0
-    repository: "file:///Users/pradeep.babu/Desktop/IoT/all_charts/pm-metric-processor"
+    repository: "file://../pm-metric-processor"
 
