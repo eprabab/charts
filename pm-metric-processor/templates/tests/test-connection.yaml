@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "pm-metric-processor.fullname" . }}-test-connection"
+  labels:
+    {{- include "pm-metric-processor.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "pm-metric-processor.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never

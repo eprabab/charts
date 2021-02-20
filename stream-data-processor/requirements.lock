@@ -1,0 +1,6 @@
+dependencies:
+- name: kafka-chart
+  repository: file:///Users/pradeep.babu/Desktop/IoT/kafka-chart
+  version: 0.1.0
+digest: sha256:2be768f6f4f333bf23040b41dddfd3e2e31f9fa17de65a95f7321da9192e1b9b
+generated: "2021-02-19T20:47:14.58147Z"

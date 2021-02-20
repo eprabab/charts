@@ -1,0 +1,12 @@
+dependencies:
+- name: zoohelm
+  repository: file:///Users/pradeep.babu/Desktop/IoT/zoohelm
+  version: 0.1.0
+- name: homeautomation
+  repository: file:///Users/pradeep.babu/Desktop/IoT/homeautomation
+  version: 0.1.0
+- name: ml
+  repository: file:///Users/pradeep.babu/Desktop/IoT/ml
+  version: 0.1.0
+digest: sha256:ccf40e0e8ba0490bc0fe36d5399d5d2042dd3569ef7a72f78eba6848d3de3f82
+generated: "2021-02-19T21:10:06.861757Z"
